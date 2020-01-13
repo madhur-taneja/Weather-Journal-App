@@ -1,27 +1,42 @@
 body{
     background: #fffff8;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 #app{
     display: grid;
-    grid-auto-rows: minmax(150px, auto);
-    /* grid-template-columns:  */
-    height:100vh;
+    /*grid-auto-rows: minmax(150px, auto);*/
+    grid-auto-rows: min-content;
+    /*height:100vh;*/
     background: #f23557;
     color: #f0d43a;
     justify-content: center;
     grid-gap: 1em;
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
+    text-align: center;
 }
 
 .holder{
 
 }
 
+.feel {
+    grid-row: 3 / span 3;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    align-items: center;
+}
+
 .entry{
     background: rgba(59, 74, 107, .4);
+}
+
+#zip {
+    display: inline;
 }
 
 #entryHolder{
@@ -73,7 +88,9 @@ button{
     font-family: 'Oswald', sans-serif;
     border: none;
     box-shadow: 2px 4px 5px #444;
+    margin-top: 3vh;
 }
+
 h1{
     font-size: 36px;
 }
