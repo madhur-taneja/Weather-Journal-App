@@ -1,6 +1,6 @@
 /* Global Variables */
 const base_URL = 'http://api.openweathermap.org/data/2.5/weather?zip=';
-const apiKey = '&APPID=bd13cd89e2841acdbab6011ea4942ce9'
+const apiKey = '&APPID=***'
 
 // Event listener to add function to existing HTML DOM element
 document.getElementById('generate').addEventListener('click', performAction);
