@@ -30,7 +30,7 @@ You would require the following tools to develop and run the project:
 Start by setting up the project environment. `cd` into the project's root folder and run the following command to install the packages mentioned in `package.json`:
 
 ```
-  npm install
+npm install
 ```
 
 ### Instructions
@@ -53,10 +53,16 @@ For details now how these functionalities have been implemented, refer the sourc
 
 ## Running the App
 
+* Before starting the server, go to the `website/app.js` folder. On line 3,
+	```
+	const apiKey = '&APPID=***'
+	```
+	replace the `***` with the unique apiKey that was generate for you on OpenWeatherMap.
+
 * Open terminal in the root directory and run the following command:
-  ```
-    npm run start
-  ```
+	```
+	npm run start
+	```
 * The server will start on `http://localhost:3000/` in your browser.
 
 ## References
