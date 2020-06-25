@@ -1,4 +1,4 @@
-# Weather-Journal App
+# Weather Journal App
 
 An asynchronous web app that uses Web API and user data to dynamically update the UI. 
 
@@ -16,7 +16,7 @@ An asynchronous web app that uses Web API and user data to dynamically update th
 
 The starter code can be found in [this](https://github.com/udacity/fend/tree/refresh-2019) repo provided by Udacity. 
 
-The project will be evaluated by a Udacity code reviewer according to the project [rubric](https://review.udacity.com/#!/rubrics/2655/view).
+The project will be evaluated by a Udacity code reviewer according to the Weather Journal App project [rubric](https://review.udacity.com/#!/rubrics/2655/view).
 
 ### Tools Required
 You would require the following tools to develop and run the project:
